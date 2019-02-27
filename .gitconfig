@@ -1,0 +1,7 @@
+[core]
+	editor = vim
+[user]
+	email = patzim@users.noreply.github.com
+	name = Patrick Böker
+[push]
+	default = upstream
