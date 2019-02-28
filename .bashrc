@@ -12,7 +12,7 @@ alias npm-exec='PATH=$(npm bin):$PATH'
 # User specific aliases and functions
 alias dusort='du -s * | sort -n | cut -f 2- | while read a; do du -sh "$a"; done'
 alias tmux='tmux -2'
-alias cdr="cd /home/patrick/repos/"
+alias cdr="cd $HOME/repos/"
 
 # TMUX
 #if which tmux 2>&1 >/dev/null; then

@@ -1,7 +1,11 @@
 export MAKEFLAGS="-j 8"
 
-PATH="$HOME/.plenv/bin:$PATH"
-eval "$(plenv init -)"
+if [[ -d $HOME/.plenv ]]; then
+    PATH="$HOME/.plenv/bin:$PATH"
+    eval "$(plenv init -)"
+fi
 
-eval "$(/home/patrick/.rakudobrew/bin/rakudobrew init -)"
+if [[ -d $HOME/.rakudobrew ]]; then
+    eval "$($HOME/.rakudobrew/bin/rakudobrew init -)"
+fi
 
