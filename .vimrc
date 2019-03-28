@@ -15,6 +15,7 @@ set textwidth=0
 set wrapmargin=0
 set ignorecase
 set smartcase
+set modeline
 "set colorcolumn=100
 
 "make k and j displaywise and not linewise up and down
